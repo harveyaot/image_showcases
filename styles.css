@@ -1,8 +1,16 @@
-table {
-    width: 900px;
-    border: 1;
+body {
+    width: 1500px;
     margin: 0 auto;
+    padding-top: 10px;
+}
+table {
+    border: 1px solid black;
 }
 img {
     width: 300px;
+}
+
+td, th {  /* Target both table data (td) and table header (th) cells */
+    border: 1px solid black; /* Border for each cell */
+    padding: 5px; /* Add some padding for better separation */
 }
